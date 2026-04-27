@@ -1,0 +1,25 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "react js",
+      "level": "beginner",
+      "lessons": 6,
+      "desc": "lorem"
+    },
+    {
+      "id": 2,
+      "title": "react",
+      "level": "beginner",
+      "lessons": 6,
+      "desc": "lorem"
+    },
+    {
+      "id": 3,
+      "title": "html",
+      "level": "beginner",
+      "lessons": 6,
+      "desc": "lorem"
+    }
+  ]
+}

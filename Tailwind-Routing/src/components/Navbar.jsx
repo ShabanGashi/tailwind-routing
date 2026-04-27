@@ -7,18 +7,21 @@ function Navbar() {
           return (
               <header className="border-b border-gray-200 bg-white">
                   <div className="mx-auto flex items-center justify-between max-w-6xl px-4 py-4">
-                      <h1>react</h1>
-                      <p>react router</p>
+                      <div>
+                         <h1>react</h1>
+                      <p>react router</p> 
+                      </div>
                       
+                      <nav className="flex-gap-2">
+                          <NavLink to="/" className={linkClass}>home</NavLink>
+                          <NavLink to="/about" className={linkClass}>about</NavLink>
+                          <NavLink to="/contact" className={linkClass}>contact</NavLink>
+
+                      </nav>
                   </div>
-                  <nav className="flex-gap-2">
-                      <NavLink to="/" className={linkClass}>home</NavLink>
-                      <NavLink to="/about" className={linkClass}>about</NavLink>
-                      <NavLink to="/contact" className={linkClass}>contact</NavLink>
-                      
-                  </nav>
+                  
              </header>
   )
 }
 
-export default Navbar
+export default Navbar;
