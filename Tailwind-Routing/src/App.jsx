@@ -4,6 +4,7 @@ import Notfound from "./pages/Notfound"
 import Home from "./pages/Home"
 import { Routes, Route } from "react-router-dom"
 import Layout from "./components/Layout"
+import Courses from "./pages/Courses"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/courses' element={<Courses />} />
           <Route path='*' element={<Notfound />} />
         </Routes>
       </Layout>
